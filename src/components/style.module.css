@@ -1,22 +1,51 @@
 body {
   margin: 0;
   border-top: 10px solid #a8d7d1;
-  border-left: 50px solid #a8d7d1;
-  border-right: 50px solid #a8d7d1;
+  border-left: 40px solid #a8d7d1;
+  border-right: 40px solid #a8d7d1;
+  font-family: "Roboto";
 }
 .headername {
   width: 100%;
   height: auto;
   background-color: #a8d7d1;
-  font-size: 2.5em;
+  font-size: 2em;
+  padding-bottom: 10px;
 
   text-align: center;
+  font-family: "Helvetica";
 }
 .form {
-  text-align: center;
+  /* text-align: center; */
 }
 .button {
+  text-align: center;
   color: solid black;
   background-color: palegreen;
   border-radius: 10px;
+}
+.row {
+  display: flex;
+}
+
+.column1 {
+  text-align: right;
+  margin-right: 15px;
+  float: right;
+  flex: 50%;
+}
+.column2 {
+  flex: 50%;
+}
+p {
+  text-align: center;
+}
+.select {
+  background-color: #fafafa;
+  width: 150px;
+  height: 30px;
+}
+.inputbox {
+  height: 20px;
+  width: 250px;
 }
