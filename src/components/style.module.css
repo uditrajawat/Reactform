@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  border-top: 10px solid #a8d7d1;
+  border-left: 50px solid #a8d7d1;
+  border-right: 50px solid #a8d7d1;
+}
+.headername {
+  width: 100%;
+  height: auto;
+  background-color: #a8d7d1;
+  font-size: 2.5em;
+
+  text-align: center;
+}
+.form {
+  text-align: center;
+}
+.button {
+  color: solid black;
+  background-color: palegreen;
+  border-radius: 10px;
+}
